@@ -1,3 +1,8 @@
+import os
+os.system("cls" if os.name == "nt"else "clear")
+
+
+
 def shuffle(w1, w2):
     len_w1, len_w2 = len(w1), len(w2) 
     max_len = max(len_w1, len_w2) 

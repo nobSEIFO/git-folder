@@ -1,3 +1,7 @@
+import os
+os.system("cls" if os.name == "nt"else "clear")
+
+
 def factors(word):
     factor_list = []
     for i in range(len(word)):

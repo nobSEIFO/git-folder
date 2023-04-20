@@ -1,3 +1,8 @@
+import os
+os.system("cls" if os.name == "nt"else "clear")
+
+
+
 def prefixes(word):
     prefix_list = []
     for i in range(1, len(word)+1):

@@ -1,3 +1,8 @@
+import os
+os.system("cls" if os.name == "nt"else "clear")
+
+
+
 def shuffle_symbol(word, c):
     count_c = word.count(c)
     interleave = c + ''.join(['']*count_c)
